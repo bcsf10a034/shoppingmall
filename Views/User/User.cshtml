@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "User";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>User</h2>
+
+ <div  style="border: none;">
+        <form id="ad" action="~/User/SignUp1" method="post" style="margin-left: 135px; margin-top: 10px;">
+            <input type="text" placeholder="Name" name="UserName" id="name" onchange="chk();" required></br>
+            <input type="email" placeholder="Email Address" name="email" id="pass" required></br>
+
+            <input type="password" placeholder="Password" name="password" id="pass1" required></br>
+            
+            
+            <input type="Submit" value="SignUp" id="b2"  ></br>
+        </form>
+       
+    </div>
